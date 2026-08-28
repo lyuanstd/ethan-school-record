@@ -8,3 +8,6 @@ __pycache__/
 
 data/
 uploads/
+
+test_routine.png
+test_image_analyzer.py

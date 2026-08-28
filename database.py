@@ -94,6 +94,7 @@ def create_record(
     daily_summary="",
     chinese_course="",
     english_course="",
+    routine_data=None,
 ):
     """
     Create one daily school record.
@@ -114,6 +115,7 @@ def create_record(
         "daily_summary": daily_summary,
         "chinese_course": chinese_course,
         "english_course": english_course,
+        "routine_data": routine_data,
     }
 
     response = (
@@ -160,6 +162,7 @@ def update_record(
     daily_summary="",
     chinese_course="",
     english_course="",
+    routine_data=None,
 ):
     """
     Update an existing daily school record.
@@ -170,6 +173,7 @@ def update_record(
         "daily_summary": daily_summary,
         "chinese_course": chinese_course,
         "english_course": english_course,
+        "routine_data": routine_data,
     }
 
     response = (
