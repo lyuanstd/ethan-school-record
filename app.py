@@ -121,6 +121,9 @@ def routine_data_form(prefix, existing_data=None):
         "Storytime",
         "Music & Movement",
         "Learning Centers",
+        "Maths & Science",
+        "Art & Craft",
+        "Indoor Play",
     ]
 
     # --------------------------------------------------
@@ -160,6 +163,7 @@ def routine_data_form(prefix, existing_data=None):
         options=mood_options,
         default=existing_moods,
         key=f"{prefix}_mood",
+        accept_new_options=True,
     )
 
     # --------------------------------------------------
@@ -171,6 +175,7 @@ def routine_data_form(prefix, existing_data=None):
         options=activity_options,
         default=existing_activities,
         key=f"{prefix}_activities",
+        accept_new_options=True,
     )
 
     # --------------------------------------------------
